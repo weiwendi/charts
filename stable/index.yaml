@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-28T06:06:36.335441582Z"
+    description: Deploys an NGINX instance to Kubernetes.
+    digest: 4c3fe52e041d895e1a7c23f935be3315568a219410f9ad209a28839d849beb30
+    maintainers:
+    - name: weiwendi
+    name: nginx
+    type: application
+    urls:
+    - nginx-1.0.0.tgz
+    version: 1.0.0
+  player-stats:
+  - apiVersion: v2
+    appVersion: v0.1.0
+    created: "2021-07-28T06:06:36.365108076Z"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.15.x
+    description: Used to deploy the player-stats application.
+    digest: 195b4174e6c48d715ec6f527e472cf685d82478fa041e6f1e54eb10d83c2dab9
+    maintainers:
+    - name: weiwendi
+    name: player-stats
+    type: application
+    urls:
+    - player-stats-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-07-28T06:06:36.334509117Z"
