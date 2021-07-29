@@ -3,9 +3,9 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-07-29T08:43:28.933575879Z"
+    created: "2021-07-29T08:54:55.918585353Z"
     description: Deploys an NGINX instance to Kubernetes.
-    digest: a81c3feb1dbeafcdfe27cadb4c8739f0dedd04bf5eac398771ca02722ac431e3
+    digest: 9e4395d33f41b5e94640a037a6987f35066cf1fa5146b4583bf342b4b7633899
     maintainers:
     - name: weiwendi
     name: nginx
@@ -16,13 +16,13 @@ entries:
   player-stats:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2021-07-29T08:43:28.96939299Z"
+    created: "2021-07-29T08:54:55.925100852Z"
     dependencies:
     - name: mongodb
       repository: https://charts.bitnami.com/bitnami
       version: 10.15.x
     description: Used to deploy the player-stats application.
-    digest: 84bf4283e1d47a0df734d84cf9401eacd4009840e06763fd80ab75c6e2efd303
+    digest: 483d3bed370f3670ec252ad34c70d4be533d4766823eb764e3806dae86dbf317
     maintainers:
     - name: weiwendi
     name: player-stats
@@ -30,4 +30,4 @@ entries:
     urls:
     - player-stats-1.0.0.tgz
     version: 1.0.0
-generated: "2021-07-29T08:43:28.932469955Z"
+generated: "2021-07-29T08:54:55.917567096Z"
